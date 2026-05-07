@@ -28,58 +28,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const experiences = [
     {
-        period: "2022 — Present",
-        title: "Senior Software Engineer",
-        company: "TechCorp",
-        companyUrl: "#",
-        description: "Build and maintain critical components used to construct the company's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+        period: "2025 — Present",
+        title: "Help Desk Technician",
+        company: "Lake Superior State University",
+        companyUrl: "https://www.lssu.edu/",
+        description: "Provided technical support to students, faculty, and staff at Lake Superior State University. Troubleshot hardware and software issues, managed user accounts.",
         technologies: [
-            "TypeScript",
-            "React",
-            "Next.js",
-            "Tailwind CSS",
-            "GraphQL"
-        ]
-    },
-    {
-        period: "2020 — 2022",
-        title: "Software Engineer",
-        company: "StartupXYZ",
-        companyUrl: "#",
-        description: "Developed and shipped highly interactive web applications for customer portals using React and TypeScript. Worked with a team of designers and engineers to build a design system from scratch.",
-        technologies: [
-            "JavaScript",
-            "React",
-            "Node.js",
-            "PostgreSQL",
-            "AWS"
-        ]
-    },
-    {
-        period: "2018 — 2020",
-        title: "Junior Developer",
-        company: "Digital Agency Co",
-        companyUrl: "#",
-        description: "Collaborated with other designers and developers to build responsive websites for clients across various industries. Helped maintain legacy codebases and learned best practices for writing clean, maintainable code.",
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "WordPress"
-        ]
-    },
-    {
-        period: "2017 — 2018",
-        title: "Web Development Intern",
-        company: "Creative Studio",
-        companyUrl: "#",
-        description: "Assisted in developing client websites and internal tools. Gained hands-on experience with modern web technologies and agile development practices.",
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "jQuery"
+            "Windows",
+            "macOS",
+            "Linux",
+            "Active Directory",
+            "Remote Desktop"
         ]
     }
 ];
@@ -95,7 +54,7 @@ function Experience() {
                     children: "Experience"
                 }, void 0, false, {
                     fileName: "[project]/components/experience.tsx",
-                    lineNumber: 47,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -111,7 +70,7 @@ function Experience() {
                                         children: period
                                     }, void 0, false, {
                                         fileName: "[project]/components/experience.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 25,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,13 +85,13 @@ function Experience() {
                                                         className: "w-4 h-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/experience.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 31,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/experience.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 29,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -140,7 +99,7 @@ function Experience() {
                                                 children: description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/experience.tsx",
-                                                lineNumber: 60,
+                                                lineNumber: 33,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -150,34 +109,34 @@ function Experience() {
                                                         children: tech
                                                     }, tech, false, {
                                                         fileName: "[project]/components/experience.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 36,
                                                         columnNumber: 45
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/experience.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 34,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/experience.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 28,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/experience.tsx",
-                                lineNumber: 51,
+                                lineNumber: 24,
                                 columnNumber: 29
                             }, this)
                         }, index, false, {
                             fileName: "[project]/components/experience.tsx",
-                            lineNumber: 50,
+                            lineNumber: 23,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/experience.tsx",
-                    lineNumber: 48,
+                    lineNumber: 21,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -193,29 +152,29 @@ function Experience() {
                                 className: "w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform"
                             }, void 0, false, {
                                 fileName: "[project]/components/experience.tsx",
-                                lineNumber: 74,
+                                lineNumber: 47,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/experience.tsx",
-                        lineNumber: 72,
+                        lineNumber: 45,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/experience.tsx",
-                    lineNumber: 71,
+                    lineNumber: 44,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/experience.tsx",
-            lineNumber: 46,
+            lineNumber: 19,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/experience.tsx",
-        lineNumber: 45,
+        lineNumber: 18,
         columnNumber: 9
     }, this);
 }
@@ -367,34 +326,8 @@ function Hero() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     id: "about",
-                    className: "scroll-mt-24",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-muted-foreground leading-relaxed text-base md:text-lg",
-                            children: "TODO: Add a more detailed introduction about yourself here. This is where you can talk about your background, your journey into software engineering, and what motivates you in your work. You can also mention any specific technologies or areas of interest that you're passionate about."
-                        }, void 0, false, {
-                            fileName: "[project]/components/hero.tsx",
-                            lineNumber: 48,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-muted-foreground leading-relaxed text-base md:text-lg mt-6",
-                            children: "TODO: You can also use this section to highlight any recent projects or accomplishments, or to share a bit about your personal interests and hobbies outside of work. This helps to give a more well-rounded picture of who you are as a person and a professional."
-                        }, void 0, false, {
-                            fileName: "[project]/components/hero.tsx",
-                            lineNumber: 51,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$7_$40$babel$2b$core$40$7$2e$29$2e$0_react$2d$dom$40$19$2e$2$2e$6_react$40$19$2e$2$2e$6_$5f$react$40$19$2e$2$2e$6$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-muted-foreground leading-relaxed text-base md:text-lg mt-6",
-                            children: "TODO: Finally, you can end this section with a call to action, such as inviting visitors to check out your projects, connect with you on social media, or get in touch via email. This encourages engagement and helps to foster connections with others in the industry."
-                        }, void 0, false, {
-                            fileName: "[project]/components/hero.tsx",
-                            lineNumber: 54,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    className: "scroll-mt-24"
+                }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
                     lineNumber: 47,
                     columnNumber: 17

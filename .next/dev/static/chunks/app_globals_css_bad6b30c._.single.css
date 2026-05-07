@@ -665,10 +665,6 @@
     background-clip: padding-box;
   }
 
-  .object-cover {
-    object-fit: cover;
-  }
-
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -691,10 +687,6 @@
 
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
-  }
-
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
   }
 
   .py-20 {
@@ -815,10 +807,6 @@
     opacity: 0;
   }
 
-  .opacity-70 {
-    opacity: .7;
-  }
-
   .shadow-xs {
     --tw-shadow: 0 1px 2px 0 var(--tw-shadow-color, #0000000d);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -837,12 +825,6 @@
 
   .transition-colors {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-
-  .transition-opacity {
-    transition-property: opacity;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }

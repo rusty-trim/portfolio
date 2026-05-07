@@ -3,41 +3,14 @@ import Link from "next/link"
 
 const experiences = [
   {
-    period: "2022 — Present",
-    title: "Senior Software Engineer",
-    company: "TechCorp",
-    companyUrl: "#",
+    period: "2025 — Present",
+    title: "Help Desk Technician",
+    company: "Lake Superior State University",
+    companyUrl: "https://www.lssu.edu/",
     description:
-      "Build and maintain critical components used to construct the company's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    technologies: ["TypeScript", "React", "Next.js", "Tailwind CSS", "GraphQL"],
-  },
-  {
-    period: "2020 — 2022",
-    title: "Software Engineer",
-    company: "StartupXYZ",
-    companyUrl: "#",
-    description:
-      "Developed and shipped highly interactive web applications for customer portals using React and TypeScript. Worked with a team of designers and engineers to build a design system from scratch.",
-    technologies: ["JavaScript", "React", "Node.js", "PostgreSQL", "AWS"],
-  },
-  {
-    period: "2018 — 2020",
-    title: "Junior Developer",
-    company: "Digital Agency Co",
-    companyUrl: "#",
-    description:
-      "Collaborated with other designers and developers to build responsive websites for clients across various industries. Helped maintain legacy codebases and learned best practices for writing clean, maintainable code.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-  },
-  {
-    period: "2017 — 2018",
-    title: "Web Development Intern",
-    company: "Creative Studio",
-    companyUrl: "#",
-    description:
-      "Assisted in developing client websites and internal tools. Gained hands-on experience with modern web technologies and agile development practices.",
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
-  },
+      "Provided technical support to students, faculty, and staff at Lake Superior State University. Troubleshot hardware and software issues, managed user accounts.",
+    technologies: ["Windows", "macOS", "Linux", "Active Directory", "Remote Desktop"],
+  }
 ]
 
 export default function Experience() {

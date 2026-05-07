@@ -45,7 +45,7 @@ export default function Hero() {
 
                 {/* Right Column */}
                 <div id="about" className="scroll-mt-24">
-                    <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
+                    {/* <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
                         TODO: Add a more detailed introduction about yourself here. This is where you can talk about your background, your journey into software engineering, and what motivates you in your work. You can also mention any specific technologies or areas of interest that you're passionate about.
                     </p>
                     <p className="text-muted-foreground leading-relaxed text-base md:text-lg mt-6">
@@ -53,7 +53,7 @@ export default function Hero() {
                     </p>
                     <p className="text-muted-foreground leading-relaxed text-base md:text-lg mt-6">
                         TODO: Finally, you can end this section with a call to action, such as inviting visitors to check out your projects, connect with you on social media, or get in touch via email. This encourages engagement and helps to foster connections with others in the industry.
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </section>
