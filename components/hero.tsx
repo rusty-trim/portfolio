@@ -3,10 +3,10 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const socialLinks = [
-  { icon: BsGithub, href: "https://github.com/rusty-trim", label: "GitHub" },
-  { icon: BsLinkedin, href: "https://linkedin.com/in/rusty-trim", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:rustytrim11@gmail.com", label: "Email" },
-  { icon: FileText, href: "/resume.pdf", label: "Resume" },
+    { icon: BsGithub, href: "https://github.com/rusty-trim", label: "GitHub" },
+    { icon: BsLinkedin, href: "https://linkedin.com/in/rusty-trim", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:rustytrim11@gmail.com", label: "Email" },
+    { icon: FileText, href: "/resume.pdf", label: "Resume" },
 ]
 
 export default function Hero() {
@@ -19,7 +19,7 @@ export default function Hero() {
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">Rusty Trim</h1>
                         <p className="text-lg md:text-xl text-primary mt-2 max-w-sm leading-relaxed">Software Engineer</p>
                         <p className="text-muted-foreground mt-4 max-w-sm leading-relaxed">
-                            TODO: Add a brief introduction or tagline about yourself here. This is a great place to highlight your key skills, passions, or what you're currently working on.
+                            Aspiring software engineer focused on building clean, responsive, and reliable applications. Passionate about web development, backend systems, and continuously improving as a developer.
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@ export default function Hero() {
 
                     {/* Social Links */}
                     <div className="flex gap-5 mt-4">
-                        {socialLinks.map(({icon: Icon, href, label}) => (
+                        {socialLinks.map(({ icon: Icon, href, label }) => (
                             <Link key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                                 <Icon className="w-5 h-5" />
                             </Link>
@@ -45,15 +45,16 @@ export default function Hero() {
 
                 {/* Right Column */}
                 <div id="about" className="scroll-mt-24">
-                    {/* <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
-                        TODO: Add a more detailed introduction about yourself here. This is where you can talk about your background, your journey into software engineering, and what motivates you in your work. You can also mention any specific technologies or areas of interest that you're passionate about.
+
+                    <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
+                        I recently graduated from Lake Superior State University with an Associate’s degree in Computer Science, earning Magna Cum Laude honors while maintaining a 3.7+ GPA. My interest in software engineering comes from enjoying both problem-solving and the process of building ideas into real, functional applications.
                     </p>
                     <p className="text-muted-foreground leading-relaxed text-base md:text-lg mt-6">
-                        TODO: You can also use this section to highlight any recent projects or accomplishments, or to share a bit about your personal interests and hobbies outside of work. This helps to give a more well-rounded picture of who you are as a person and a professional.
+                        I am particularly interested in web development and backend systems, with experience working with technologies such as JavaScript, TypeScript, React, Node.js, Git, and Linux-based development environments. I enjoy learning how systems work behind the scenes and continuously improving my skills through personal projects and hands-on development.
                     </p>
                     <p className="text-muted-foreground leading-relaxed text-base md:text-lg mt-6">
-                        TODO: Finally, you can end this section with a call to action, such as inviting visitors to check out your projects, connect with you on social media, or get in touch via email. This encourages engagement and helps to foster connections with others in the industry.
-                    </p> */}
+                        I plan to continue pursuing my Bachelor’s degree while growing as a software developer through real-world experience, collaboration, and challenging projects. My goal is to build software that is clean, reliable, and meaningful to the people using it.
+                    </p>
                 </div>
             </div>
         </section>
