@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/rusty/Projects/portfolio/app/page.tsx"],"sourcesContent":["import { Button } from \"@/components/ui/button\"\n\nexport default function Page() {\n  return (\n    <div></div>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,+YAAC;;;;;AAEL"}}]
+}
