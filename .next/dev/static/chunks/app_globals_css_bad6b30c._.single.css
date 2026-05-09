@@ -362,10 +362,6 @@
     inset-inline-start: var(--spacing);
   }
 
-  .end {
-    inset-inline-end: var(--spacing);
-  }
-
   .-mx-6 {
     margin-inline: calc(var(--spacing) * -6);
   }
